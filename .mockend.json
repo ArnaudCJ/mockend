@@ -2,25 +2,25 @@
   "responses": [
     {
       "type": "string",
-      "value": true
+      "value": "boolean"
     },
     {
       "type": "string",
-      "markdown": true,
-      "text": "May I know your name please?"
+      "markdown": "boolean",
+      "text": "string"
     }
   ],
   "nlu": {
-    "language": "en",
-    "entities": [],
+    "language": "string",
+    "entities": Comment[],
     "intent": {
-      "name": "hello",
-      "confidence": 1
+      "name": "string",
+      "confidence": "int"
     },
     "intents": [
       {
         "name": "hello",
-        "confidence": 1
+        "confidence": "int"
       }
     ]
   },
