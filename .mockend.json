@@ -1,11 +1,11 @@
 {
   "responses": [
     {
-      "type": "typing",
+      "type": "string",
       "value": true
     },
     {
-      "type": "text",
+      "type": "string",
       "markdown": true,
       "text": "May I know your name please?"
     }
