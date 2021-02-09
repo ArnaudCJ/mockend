@@ -12,7 +12,7 @@
   ],
   "nlu": {
     "language": "string",
-    "entities": Comment[],
+    "entities": "Comment[]",
     "intent": {
       "name": "string",
       "confidence": "int"
