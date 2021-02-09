@@ -1,26 +1,27 @@
 {
-  "responses": [
-    {
-      "type": "string",
-      "value": "boolean"
-    },
-    {
-      "type": "string",
-      "markdown": "boolean",
-      "text": "string"
-    }
-  ],
-  "nlu": {
-    "language": "string",
-    "entities": "Comment[]",
-    "intent": {
-      "name": "string",
-      "confidence": "int"
-    },
-    "intents": [
+    "responses": [
       {
-        "name": "hello",
-        "confidence": "int"
+        "type": "string",
+        "value": "boolean"
+      },
+      {
+        "type": "string",
+        "markdown": "boolean",
+        "text": "string"
       }
-    ]
+    ],
+    "nlu": {
+      "language": "string",
+      "entities": "Comment[]",
+      "intent": {
+        "name": "string",
+        "confidence": "int"
+      },
+      "intents": [
+        {
+          "name": "hello",
+          "confidence": "int"
+        }
+      ]
+  }
 }
